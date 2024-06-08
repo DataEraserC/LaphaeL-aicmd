@@ -22,7 +22,7 @@
       inherit (poetry2nix.lib.mkPoetry2Nix {inherit pkgs;}) mkPoetryApplication;
     in {
       packages = {
-        laphaelaicmd_linux = with pkgs; mkPoetryApplication {
+        laphael_aicmd = with pkgs; mkPoetryApplication {
           projectDir = self;
           meta = {
             description = "Enable chat AI to execute commands on linux with feedback-loop for multi-step missions";
@@ -34,7 +34,7 @@
             platforms = lib.platforms.all;
           };
         };
-        default = self.packages.${system}.laphaelaicmd_linux;
+        default = self.packages.${system}.laphael_aicmd;
       };
 
       # Shell for app dependencies.

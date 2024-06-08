@@ -8,8 +8,8 @@ authors = [
 ]
 license = "AGPL-3.0"
 readme = "README.md"
-homepage = "https://github.com/LaphaeL12304/LaphaeLaicmd-linux"
-repository = "https://github.com/LaphaeL12304/LaphaeLaicmd-linux"
+homepage = "https://github.com/LaphaeL12304/LaphaeL-aicmd"
+repository = "https://github.com/LaphaeL12304/LaphaeL-aicmd"
 keywords = ["aicmd", "ai"]
 packages = [
   { include = "*", from = "src", to = "laphael_aicmd", format = [
