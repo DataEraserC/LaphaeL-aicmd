@@ -29,7 +29,7 @@
             longDescription = ''
               Enable chat AI to execute commands on linux with feedback-loop for multi-step missions
             '';
-            homepage = "https://www.gnu.org/software/hello/manual/";
+            homepage = "https://github.com/LaphaeL12304/LaphaeL-aicmd";
             license = lib.licenses.agpl3Only;
             platforms = lib.platforms.all;
           };
