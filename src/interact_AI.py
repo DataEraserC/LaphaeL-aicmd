@@ -271,7 +271,7 @@ def initialize():
                 cf.set_api_key()
                 cf.initialize()
             else:
-                sys.exit(_("Exitting program..."))
+                sys.exit(_("Exiting program..."))
         except Exception as e:
             done = False
             print(_("Failed to obtain AI class: ") + str(e))
@@ -288,7 +288,7 @@ def initialize():
                     cf.set_api_key()
                     cf.initialize()
                 else:
-                    sys.exit(_("Exitting program..."))
+                    sys.exit(_("Exiting program..."))
 
         if 'chat_ai' in globals() and not chat_ai.ready:
             done = False
@@ -301,7 +301,7 @@ def initialize():
                 cf.set_api_key()
                 cf.initialize()
             else:
-                sys.exit(_("Exitting program..."))
+                sys.exit(_("Exiting program..."))
 
     # 初始化完成 - Initialization complete
     ut.print_spoker(record=False)

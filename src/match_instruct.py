@@ -29,7 +29,7 @@ def match_instruction(instruction: str):
         match instruction:  # 如果用户输入以'/'开头，则匹配用户输入 - Match user input if it starts with '/'
 
             case "/exit" | "/退出":  # 退出程序 - Exit program
-                print(_("Exitting program..."))
+                print(_("Exiting program..."))
                 sys.exit(0)
 
             case "/help" | "/帮助" | "/":  # 打印帮助文本 - Print help text

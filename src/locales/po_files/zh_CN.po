@@ -38,7 +38,7 @@ msgstr "更换AI模型？"
 
 #: src/interact_AI.py:274 src/interact_AI.py:291 src/interact_AI.py:304
 #: src/match_instruct.py:32
-msgid "Exitting program..."
+msgid "Exiting program..."
 msgstr "正在退出程序..."
 
 #: src/interact_AI.py:278
